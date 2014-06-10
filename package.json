@@ -3,6 +3,8 @@
 	"description": "Like co but lets you also output data",
 	"version": "0.0.2",
 	"author": "CoderPuppy",
+	"repository": "git://github.com/CoderPuppy/cooperator.git",
+	"homepage": "https://github.com/CoderPuppy/cooperator",
 	"dependencies": {
 		"thunkifyer": "^0.0.1",
 		"pull-pushable": "^1.1.4"
