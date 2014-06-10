@@ -27,7 +27,7 @@ var co = cooperator(function*() {
 ## API
 - `co = cooperator(gen)` - Creates a cooperator from gen (can be a generator or a generator function)
 - `co.start()` - Start it
-- `co.on('data', (data) => {})` - An event emitted when the generator yields a value that can't be thunkifyered
-- `co.on('done', (res) => {})` - An event emitted when the generator returns
-- `co.on('error', (err) => {})` - An event emitted when the generator throws an error
+- `co.on('data', cb(data))` - An event emitted when the generator yields a value that can't be thunkifyered
+- `co.on('done', cb(res))` - An event emitted when the generator returns
+- `co.on('error', cb(err))` - An event emitted when the generator throws an error
 - `co.pullStream` - A pull-stream for the data
