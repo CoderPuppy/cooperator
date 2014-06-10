@@ -1,7 +1,7 @@
 {
 	"name": "cooperator",
 	"description": "Like co but lets you also output data",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "CoderPuppy",
 	"repository": "git://github.com/CoderPuppy/cooperator.git",
 	"homepage": "https://github.com/CoderPuppy/cooperator",
