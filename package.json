@@ -6,7 +6,7 @@
 	"repository": "git://github.com/CoderPuppy/cooperator.git",
 	"homepage": "https://github.com/CoderPuppy/cooperator",
 	"dependencies": {
-		"thunkifyer": "^0.0.2",
+		"thunkifyer": "^0.0.3",
 		"pull-pushable": "^1.1.4"
 	}
 }
